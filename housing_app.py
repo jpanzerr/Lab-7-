@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 import openpyxl
 
 # Load the dataset
-file_path = "/Users/jp/Desktop/housing_data.xlsx"
+file_path = "/Users/jp/Desktop/housing_data.csv"
 df = pd.read_excel(file_path)
 
 # Select relevant features and target variable
