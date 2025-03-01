@@ -7,7 +7,8 @@ import openpyxl
 
 # Load the dataset
 file_path = "/Users/jp/Desktop/housing_data.csv"
-df = pd.read_excel(file_path)
+df = pd.read_csv("housing_data.csv")  # ✅ Use CSV
+
 
 # Select relevant features and target variable
 selected_features = ['Overall Qual', 'Gr Liv Area', 'Garage Cars', 'Total Bsmt SF', 'Full Bath', 'Year Built']
